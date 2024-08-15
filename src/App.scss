@@ -1,0 +1,38 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+// @import '~loaders.css/src/animations/ClipLoader.scss';
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./asessts/static/coolvetica/coolvetica\ crammed\ rg.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./asessts/static/helvetica-neue-5/HelveticaNeueMedium.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'PlayWritePL';
+  src: url('./asessts/static/PlaywritePL-Regular.ttf') format('ttf');
+}
+
+
+
+.textarea{
+  font-family: 'PlayWritePL';
+}
+.loader-active{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}

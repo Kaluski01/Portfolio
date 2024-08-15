@@ -1,0 +1,36 @@
+/* Loader Container */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card Animation */
+.card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.loader{
+  // width: 100%;
+  background: #115;
+  border: 3px solid #115;
+  border-radius: 3px;
+}
+
+.card-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-img-top {
+  transition: filter 0.5s ease-in-out;
+}
+
+.card-img-top:hover {
+  filter: brightness(50%);
+}
+.card:hover{
+  transform: translateY(-10px);
+}
