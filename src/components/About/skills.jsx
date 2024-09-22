@@ -54,7 +54,7 @@ export default function Skills() {
                   some of my projects, whuch will displayed on the projects page.</p>
               </div>
             </div>
-            <div className="col-lg-2 col-8 icon-container">
+            <div className="col-lg-2 col-10 icon-container">
               <div className="stage-cube-cont">
                 <div className="cubespinner">
                   <div className="face1">
