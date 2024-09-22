@@ -41,7 +41,7 @@ const projects = [
     link: 'https://pet-adoption-seven.vercel.app',
   },
   {
-    imgsrc: require('../../asessts/easy-bank.PNG'),
+    imgsrc: require('../../asessts/easy.PNG'),
     title: 'Easy-Bank landing Page',
     text: 'Built as a challenge from front-end websites website to test my knowledge',
     builtwith:'HTML, CSS, Bootstrap, JavaScript, React',
@@ -88,7 +88,7 @@ export default function Works() {
                 className={`mb-4 d-flex justify-content-center ${visibleCards.includes(index) ? 'card-visible' : ''}`}
               >
                 <Card className={`card ${visibleCards.includes(index) ? 'card-visible' : ''}`}>
-                  <Card.Img className="card-img-top h-50" variant="top" src={project.imgsrc} alt={project.title} />
+                  <Card.Img className="card-img-top h-100" variant="top" src={project.imgsrc} alt={project.title} />
                   <Card.Body className="card-body">
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.text}</Card.Text>
