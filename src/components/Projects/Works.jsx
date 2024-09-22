@@ -40,6 +40,13 @@ const projects = [
     builtwith: 'HTML, CSS, Bootstrap, JavaScript, React', 
     link: 'https://pet-adoption-seven.vercel.app',
   },
+  {
+    imgsrc: require('../../asessts/easy-bank.PNG'),
+    title: 'Easy-Bank landing Page',
+    text: 'Built as a challenge from front-end websites website to test my knowledge',
+    builtwith:'HTML, CSS, Bootstrap, JavaScript, React',
+    link: 'https://easybank-dun.vercel.app/'
+  }
 ];
 
 export default function Works() {
@@ -74,7 +81,7 @@ export default function Works() {
           <Row className='d-flex justify-content-center'>
             {projects.map((project, index) => (
               <Col
-                xs={10}
+                xs={8}
                 md={6}
                 lg={5}
                 key={index}
@@ -85,7 +92,7 @@ export default function Works() {
                   <Card.Body className="card-body">
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.text}</Card.Text>
-                    <Card.Text>{project.builtwith}</Card.Text>
+                    <Card.Text>Built-with: {project.builtwith}</Card.Text>
                   </Card.Body>
                   <Card.Body>
                     <Card.Link href={project.link}>{project.link}</Card.Link>

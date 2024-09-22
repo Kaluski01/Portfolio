@@ -50,7 +50,8 @@ export default function Skills() {
                   to learn and work on improving my take on designs and incoming
                   technologies.
                 </p>
-                <p>I've mastered skills like Html, Css, Git, Javascript, React which has helped me in building some of my projects.</p>
+                <p>I've mastered skills like Html, Css, Git, Javascript, React which has helped me in building 
+                  some of my projects, whuch will displayed on the projects page.</p>
               </div>
             </div>
             <div className="col-lg-2 col-8 icon-container">

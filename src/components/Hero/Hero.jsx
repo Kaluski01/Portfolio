@@ -27,6 +27,7 @@ export default function Hero() {
             <span className={`${letterClass} _3`}>l</span>
             <span className={`${letterClass} _4`}>l</span>
             <span className={`${letterClass} _5`}>o</span>
+            <span className={`${letterClass}`}>👋</span>
             <br />
             <span className={`${letterClass} _6`}>I</span>
             <span className={`${letterClass} _7`}>'m</span>
@@ -38,6 +39,9 @@ export default function Hero() {
           <span>Front-end Developer / JavaScript Expert / Graphic Designer</span>
           <br />
           <Link to="/contact" className='contact-link'>Contact me</Link>
+        </div>
+        <div>
+          <img src="" alt="" />
         </div>
       </div>
     </div>
