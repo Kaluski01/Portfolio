@@ -46,7 +46,7 @@ export default function Hero() {
                     <a href="https://twitter.com/@KALUSKI001" className='mx-2'>
                       <FaXTwitter />
                                     </a>
-                  <a href="https://www.linkedin.com/in/NzeDivine" className='mx-2'>
+                  <a href="https://www.linkedin.com/in/Kaluski" className='mx-2'>
                     <FaLinkedin />
                   </a>
                 </div>
