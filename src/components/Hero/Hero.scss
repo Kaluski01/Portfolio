@@ -6,14 +6,33 @@
         font-family: 'Tahoma';
     }
 }
-
+.hold{
+    opacity: 0;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
 .letters{
     font-family: 'Tahoma';
     font-size: 25px;
 }
-
-
-
+.hold{
+    width: 100%;
+    gap:50px ;
+}
+.social-icon {
+    font-size: 30px;
+    color: #0073b1; // New color for social media icons, you can change this as desired
+  }
 .contact-link {
     margin-top: 20px;
     display: inline-block;

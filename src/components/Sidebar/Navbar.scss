@@ -11,9 +11,10 @@
   }
 }
 .icon {
-    width: 50px; /* Adjust size as needed */
-    height: 30px; /* Ensure consistent height */
-    color:#115;
+  
+  font-size: 26px;
+  color: #0073b1;
+
   }
 .navlink{
  position: relative;
@@ -21,7 +22,9 @@
  display: flex;
  width: 50%;
  align-items: center;
-padding: 10px;
+}
+.holder{
+  gap: 100px;
 }
 
 .icon:hover{
@@ -30,7 +33,7 @@ padding: 10px;
 .navlink:hover::after{
     content: attr(title);
     position: absolute;
-    left: 30%;
+    left: 40%;
     top: 100%;
     transform: translateX(-50%);
     background-color: #222;
@@ -74,13 +77,27 @@ padding: 10px;
   border: 1px solid white;
 }
 
+// .social-icon {
+//   font-size: 24px;
+//   color: #0073b1; // New color for social media icons, you can change this as desired
+// }
+
+// To add hover effect for the social media icons:
+.social-icon:hover {
+  color: #005582; // Darker blue shade on hover
+}
+
 @media (max-width: 768px) {
     .navlink {
       justify-content: center;
       padding: 8px 0;
       display: flex;
       flex-direction: row;
-      width: 100%; 
+      width: 60%; 
+    }
+    .holder{
+      gap: 25px;
+      // margin-bottom: 25px;
     }
   
     .navbar-brand h1 {
@@ -92,9 +109,9 @@ padding: 10px;
       height: 20px;
     }
     .navlink:hover::after{
-        // position: relative;
+        position: relative;
         top: 0;
         // bottom: 150px;
-        // right: 20px;
+        left: 20px;
     }
   }

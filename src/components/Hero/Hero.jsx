@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Hero.scss';
+import { FaWhatsapp } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 import AnimatedLetters from '../Animated letters';
 import 'animate.css';
 
@@ -35,14 +38,28 @@ export default function Hero() {
             <br />
             <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={14} />
           </h1>
-          <br />
-          <span>Front-end Developer / JavaScript Expert / Graphic Designer</span>
-          <br />
-          <Link to="/contact" className='contact-link'>Contact me</Link>
+          <div className="hold">
+                <div className='d-flex'>
+                    <a href="https://wa.me/09019755712" className='mx-2'>
+                      <FaWhatsapp />
+                    </a>
+                    <a href="https://twitter.com/@KALUSKI001" className='mx-2'>
+                      <FaXTwitter />
+                                    </a>
+                  <a href="https://www.linkedin.com/in/NzeDivine" className='mx-2'>
+                    <FaLinkedin />
+                  </a>
+                </div>
+
+                  <br />
+                  <span>Front-end Developer / JavaScript Expert / Graphic Designer</span>
+                  <br />
+                  <Link to="/contact" className='contact-link'>Contact me</Link>
         </div>
         <div>
           <img src="" alt="" />
         </div>
+                </div>
       </div>
     </div>
   );

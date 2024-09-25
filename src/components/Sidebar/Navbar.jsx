@@ -19,7 +19,7 @@ function Sidebar() {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className='container'>
-                  <Nav className=" mx-auto">
+                  <Nav className=" ms-auto holder">
                     <Nav.Link href="/" className="navlink" title="Home">
                       <IoMdHome className='icon' />
                     </Nav.Link>
@@ -32,7 +32,7 @@ function Sidebar() {
                     <Nav.Link href="/contact" className="navlink" title="Contact">
                       <IoMdContact className='icon' />
                     </Nav.Link>
-                  </Nav>
+                    </Nav>
                 </Navbar.Collapse>
               </Container>
             </Navbar>
