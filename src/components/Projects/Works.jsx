@@ -46,7 +46,21 @@ const projects = [
     text: 'Built as a challenge from front-end websites website to test my knowledge',
     builtwith:'HTML, CSS, Bootstrap, JavaScript, React',
     link: 'https://easybank-dun.vercel.app/'
-  }
+  },
+  {
+    imgsrc: require('../../asessts/advice.PNG'),
+    title: 'Quote generating page',
+    text: 'Built as a challenge from front-end websites website to test my knowledge, also involved consuming Api',
+    builtwith:'HTML, CSS, Bootstrap, JavaScript',
+    link: 'https://wisdom-generator.vercel.app/'
+  },
+  {
+    imgsrc: require('../../asessts/form.PNG'),
+    title: 'Quote generating page',
+    text: 'Built as a challenge from front-end websites website to test my knowledge, that involves creating forms that users have to answer to get some details from them',
+    builtwith:'HTML, CSS, Bootstrap, JavaScript',
+    link: 'https://multi-form-pi.vercel.app/'
+  },
 ];
 
 export default function Works() {
@@ -83,7 +97,7 @@ export default function Works() {
               <Col
                 xs={8}
                 md={6}
-                lg={5}
+                lg={4}
                 key={index}
                 className={`mb-4 d-flex justify-content-center ${visibleCards.includes(index) ? 'card-visible' : ''}`}
               >
