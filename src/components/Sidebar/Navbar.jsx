@@ -32,6 +32,7 @@ function Sidebar() {
                     <Nav.Link href="/contact" className="navlink" title="Contact">
                       <IoMdContact className='icon' />
                     </Nav.Link>
+                    
                     </Nav>
                 </Navbar.Collapse>
               </Container>
